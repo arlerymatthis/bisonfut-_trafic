@@ -2,7 +2,7 @@ name: Collecte Bison Futé (débits 6 min)
 
 on:
   schedule:
-    - cron: "*/6 * * * *"   # toutes les 6 minutes (UTC) - GitHub peut retarder ou sauter des exécutions
+    - cron: "3-59/6 * * * *"   # toutes les 6 minutes (UTC) - GitHub peut retarder ou sauter des exécutions
   workflow_dispatch:
     inputs:
       inspect:
